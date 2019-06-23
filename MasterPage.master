@@ -1,0 +1,202 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style4
+        {
+            width: 32%;
+        }
+        .style6
+        {
+            width: 178px;
+        }
+        </style>
+    </head>
+<body>
+<form id="form1" runat="server">
+    <div>
+    
+    
+        <table style="width:100%; height: 569px;">
+        <%--<tr>
+            <asp:LoginStatus ID="LoginStatus1" runat="server" />
+            <asp:LoginName ID="LoginName1" runat="server" />
+        </tr>--%>
+            <tr>
+                <td colspan="2" align="center" class="style4">
+                    <asp:Panel ID="Panel1" runat="server" BorderStyle="Solid" 
+                        BorderColor = "#094e6f" BackImageUrl="~/images/wpaback.jpg">
+                    <marquee  align="absmiddle" direction="" loop style="height: 66px; width: 722px">
+                    <font  color="#CC6600" face="Comic Sans MS"   style="font-size: xx-large">
+                    <strong>   Online Examination System............. </strong>
+                     </font>
+                     <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                        <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </asp:Panel>
+                        </td>
+                        
+            </tr>
+            <tr>
+            <td class="style6">
+                &nbsp;<asp:HyperLink ID="HyperLink10" runat="server" ImageUrl="~/images/but_home.gif" 
+                    NavigateUrl="~/well come.aspx">HyperLink</asp:HyperLink>
+                &nbsp;<asp:HyperLink ID="HyperLink11" runat="server" ImageUrl="~/images/ADMIN.GIF" 
+                    NavigateUrl="~/admin.aspx">HyperLink</asp:HyperLink>
+                    <font  color="#CC6600" face="Comic Sans MS"   style="font-size:  small">
+                                                             <strong> Admin-login </strong>
+                    
+                </td>
+            </tr>
+            <tr>
+            
+                <td class="style6">
+                    <table style="width: 166px">
+                        <tr>
+                        <td>
+                            
+                            <asp:ImageButton ID="ImageButton8" runat="server" 
+                                ImageUrl="~/images/Book_signed.gif" />
+                            
+                        </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                &nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                &nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <asp:HyperLink ID="HyperLink1" runat="server" ImageUrl="~/images/LINK_1.GIF" 
+                                    NavigateUrl="~/registeration.aspx">HyperLink</asp:HyperLink>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <asp:HyperLink ID="HyperLink2" runat="server" ImageUrl="~/images/LINK_2.GIF" 
+                                    NavigateUrl="~/online material.aspx">HyperLink</asp:HyperLink>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <asp:HyperLink ID="HyperLink3" runat="server" ImageUrl="~/images/LINK_3.GIF" 
+                                    NavigateUrl="~/help.aspx">HyperLink</asp:HyperLink>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <asp:HyperLink ID="HyperLink5" runat="server" ImageUrl="~/images/LINK_5.GIF" 
+                                    NavigateUrl="~/fun.aspx">HyperLink</asp:HyperLink>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <asp:HyperLink ID="HyperLink6" runat="server" ImageUrl="~/images/LINK_6.GIF" 
+                                    NavigateUrl="~/news.aspx">HyperLink</asp:HyperLink>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <asp:HyperLink ID="HyperLink7" runat="server" ImageUrl="~/images/LINK_7.GIF" 
+                                    NavigateUrl="~/about.aspx">HyperLink</asp:HyperLink>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <asp:HyperLink ID="HyperLink8" runat="server" ImageUrl="~/images/LINK_8.GIF" 
+                                    NavigateUrl="~/contactus.aspx">HyperLink</asp:HyperLink>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                &nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            
+                                <font color="#094e6f" face="Comic Sans MS" style="font-size: medium"><strong>
+                                Develope By </strong></font>
+                            
+                             </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <font color="#CC6600" face="Comic Sans MS" style="font-size: medium"><strong>
+                                &nbsp;Javiya Vasudev R.<br />
+                                Chandra Vivek N.<br />
+                                Bhadra Sumit N</strong></font></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                &nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                &nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                &nbsp;</td>
+                        </tr>
+                    </table>
+                </td>
+                
+                <td style="width:70%">
+                     <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+                         
+        
+                         <p>
+                             <br />
+                         </p>
+                         <p>
+                         </p>
+                         <p>
+                         </p>
+                         <p>
+                         </p>
+                         <p>
+                         </p>
+                         <p>
+                         </p>
+                         <p>
+                         </p>
+                         <p>
+                         </p>
+                         <p>
+                         </p>
+                         <p>
+                         </p>
+        
+                         
+        
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td  colspan="2">
+                    
+                    
+                    
+                </td>
+            </tr>
+            </table>
+       
+    </div>
+    </form>
+    
+</body>
+</html>
